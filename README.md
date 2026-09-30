@@ -20,14 +20,6 @@ Fontes de dados
 - ONS: níveis diários dos reservatórios de 2020 a 2026. A leitura mais recente incluída é de 28/09/2026.
 - IBGE: população estimada de Minas Gerais, conforme as Projeções da População, revisão 2024.
 Os dados estão salvos no HTML e não são atualizados automaticamente.
-Como abrir
-Baixe o arquivo AquaPredict.html ou index.html e abra no navegador.
-Como publicar no GitHub Pages
-1. Renomeie o arquivo HTML para index.html.
-2. Envie o arquivo e este README para a pasta principal do repositório.
-3. Em Settings → Pages, selecione Deploy from a branch.
-4. Escolha a branch main e a pasta / (root).
-5. Salve e aguarde a publicação.
 Como o risco é calculado
 O índice vai de 0 a 100 e usa os seguintes pesos:
 - Chuva: 45%.
@@ -40,7 +32,3 @@ Acima de 20 até 40	Moderado	Amarelo
 Acima de 40 até 60	Elevado	Laranja
 Acima de 60 até 80	Alto	Vermelho
 Acima de 80 até 100	Crítico	Vinho
-
-
-As simulações permitem escolher redução de 1% ou 2% na chuva por ano, chuva constante ou aumento de 1% por ano. A população futura segue a projeção do IBGE.
-O índice é uma pontuação do trabalho, não uma probabilidade comprovada de faltar água. Os cenários futuros são simulações simples e ainda não foram validados com crises reais de abastecimento.
